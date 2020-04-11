@@ -4,16 +4,16 @@ class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!!");
 
-        Car car = new Car("342DERA", new Account("Daniel Santos", "ERT532"));
+        UberX uberX = new UberX("342DERA", new Account("Daniel Santos", "ERT532"), "Kia", "Rio");
 
-        car.passegenger = 2;
+        uberX.setPassenger(4);
 
-        car.printDataCar();
+        uberX.printDataCar();
         
-        Car car2 = new Car("ER354", new Account("Jose Jose", "URYRW23"));
-        
-        car2.passegenger = 3;
+        /*Car car2 = new Car("ER354", new Account("Jose Jose", "URYRW23"));
 
-        car2.printDataCar();
+        car2.passenger = 3;
+
+        car2.printDataCar();*/
     }
 }
